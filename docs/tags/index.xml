@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on kernel.useR</title>
+      <title>Tags on kernel.useR </title>
     <link>/tags/</link>
-    <description>Recent content in Tags on kernel.useR</description>
-    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
-    
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+    <author>Alexander Ivanov</author>
+    <updated>2015-07-23 21:13:14 -0500 -0500</updated>
     
     <item>
       <title>Plot</title>
       <link>/tags/plot/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
+      <author>Alexander Ivanov</author>
       <guid>/tags/plot/</guid>
       <description></description>
     </item>
@@ -24,7 +20,7 @@
       <title>R Markdown</title>
       <link>/tags/r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
+      <author>Alexander Ivanov</author>
       <guid>/tags/r-markdown/</guid>
       <description></description>
     </item>
@@ -33,7 +29,7 @@
       <title>Regression</title>
       <link>/tags/regression/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
+      <author>Alexander Ivanov</author>
       <guid>/tags/regression/</guid>
       <description></description>
     </item>
