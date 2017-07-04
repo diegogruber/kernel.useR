@@ -1,6 +1,6 @@
 ---
-title: "About"
-date: "2016-05-05T21:48:51-07:00"
+title: "Acerca de"
+date: "2016-07-04"
 ---
 
-This is a "hello world" example website for the [**blogdown**](https://github.com/rstudio/blogdown) package. The theme was forked from [@jrutheiser/hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) and modified by [Yihui Xie](https://github.com/yihui/hugo-lithium-theme).
+El objetivo de este blog es capturar notas importantes y de interés de mi primera visita a la conferencia mundial de R, useR 2017 que tiene lugar en Bruselas. Como no podía ser de otra manera el blog ha sido creado usando el package [**blogdown**](https://github.com/rstudio/blogdown). Y quién sabe, si lo veo útil quizás evolucione más allá de la conferencia...

@@ -5,34 +5,7 @@
     <link>/tags/</link>
     <language>en-us</language>
     <author>Alexander Ivanov</author>
-    <updated>2015-07-23 21:13:14 -0500 -0500</updated>
-    
-    <item>
-      <title>Plot</title>
-      <link>/tags/plot/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <author>Alexander Ivanov</author>
-      <guid>/tags/plot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <author>Alexander Ivanov</author>
-      <guid>/tags/r-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Regression</title>
-      <link>/tags/regression/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <author>Alexander Ivanov</author>
-      <guid>/tags/regression/</guid>
-      <description></description>
-    </item>
+    <updated>0001-01-01 00:00:00 &#43;0000 UTC</updated>
     
   </channel>
 </rss>
