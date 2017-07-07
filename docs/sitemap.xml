@@ -3,13 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/2017/07/03/calentando-motores/</loc>
-    <lastmod>2017-07-03T00:00:00+00:00</lastmod>
+    <loc>/2017/07/05/david-smith/</loc>
+    <lastmod>2017-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/07/04/calentando-motores/</loc>
+    <lastmod>2017-07-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/about/</loc>
-    <lastmod>2016-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2016-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/07/05/ml-benchmarks/</loc>
+    <lastmod>2017-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/07/04/rcpp/</loc>
+    <lastmod>2017-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/07/05/herramientas-de-desarrollo/</loc>
+    <lastmod>2017-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/07/04/cleannlp/</loc>
+    <lastmod>2017-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/07/05/gratitud/</loc>
+    <lastmod>2017-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/07/05/gratitud-con-data-table/</loc>
+    <lastmod>2017-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/07/05/m%C3%A1s-nlp/</loc>
+    <lastmod>2017-07-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -19,7 +59,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2017-07-03T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -30,7 +70,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-07-03T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -2,7 +2,7 @@ baseurl = "http://diegogruber.github.io/kernel.useR/"
 relativeurls = true
 languageCode = "en-us"
 title = "kernel.useR"
-theme = "simple-a"
+theme = "hugo-lithium-theme"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
@@ -22,7 +22,7 @@ publishDir = "docs"
     url = "https://twitter.com/diegogruber"
 
 [params]
-    description = "Documenting useR 2017 live from Brussels."
+    description = "Documentando useR 2017 en vivo desde Bruselas."
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.11.0"
