@@ -6,10 +6,20 @@
     <description>Recent content in Posts on kernel.useR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Temas pendientes</title>
+      <link>/2017/07/08/temas-pendientes/</link>
+      <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/07/08/temas-pendientes/</guid>
+      <description>Algunas charlas que me perdí, pero que valdría revisar los slides y los videos cuando los suban&amp;hellip;
+ matter, Rapid prototyping with data on disk. La sala se llenó en seguida y los comentarios posteriores fueron muy positivos. daff, para hacer seguimiento de cambios en tablas. narnia, para tratar missing values. ggiraph, para hacer gráficos interactivos show me the model : tools for visualising models  </description>
+    </item>
     
     <item>
       <title>Programando con R</title>
@@ -17,7 +27,8 @@
       <pubDate>Fri, 07 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/07/07/tidyeval-programando-con-dplyr/</guid>
-      <description> &amp;lsquo;tidyeval: Programando con dplyr&amp;lsquo; Byte Compiler R &amp;amp; Haskell </description>
+      <description>&amp;lsquo;tidyeval: Programando con dplyr&amp;lsquo; Performance aparte, una de las razones principales por las que he preferido usar data.tablea dplyr en mis desarrollos ha sido la facilidad para incluirlo en funciones y pasarle argumentos de las mismas. La clásica estrategia de substitute y eval funciona perfectamente con data.table, no así con dplyr. Para conseguirlo con dplyrhasta ahora había que hacer unas piruetas que irritaban la vista.
+Con la incorporación de tidyeval</description>
     </item>
     
     <item>
@@ -103,7 +114,7 @@ David Smith en una intervención al finalizar la presentación dijo que CRAN es 
       <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/07/06/deep-learning/</guid>
-      <description></description>
+      <description> Reinforcement Learning Text Classification with Convolutional Neural Networks  </description>
     </item>
     
     <item>
@@ -134,7 +145,7 @@ No estaba muy familiarizado con estas técnicas y es realmente fascinante ver lo
       <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/07/06/avances-en-conectividad-a-bases-de-datos/</guid>
-      <description></description>
+      <description> bases de datos en RStudio implyr: conector de Impala  </description>
     </item>
     
     <item>
@@ -171,7 +182,7 @@ Sin embargo, RStudio no deja de ser una empresa privada que tiene que generar be
       <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/07/06/computando-en-paralelo/</guid>
-      <description></description>
+      <description>Excelente keynote de Norman Matloff sobre principios de paralelización implementados en partools. Slides y blog.Spark-skeptic.</description>
     </item>
     
     <item>
