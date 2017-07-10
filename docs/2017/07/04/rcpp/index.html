@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.24.1" />
+
+
+<title>Rcpp - kernel.useR</title>
+<meta property="og:title" content="Rcpp - kernel.useR">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="../../../../css/fonts.css" media="all">
+<link rel="stylesheet" href="../../../../css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="../../../../" class="nav-logo">
+    <img src="../../../../images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="../../../../about/">About</a></li>
+    
+    <li><a href="https://github.com/diegogruber">GitHub</a></li>
+    
+    <li><a href="https://twitter.com/diegogruber">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">Rcpp</h1>
+
+    
+    <span class="article-date">2017/07/04</span>
+    
+
+    <div class="article-content">
+      <p>Más una charla que un tutorial. El propio presentador admitió que se trataba de una versión comprimida en tres horas de un workshop de dos días que había llevado a cabo unos días antes. Los ejemplos más prácticos que dio en la parte inicial de la charla fueron interesantes y se presentaron a un ritmo adecuado. En la segunda parte de la charla la cosa se descontroló y pasó como un rayo por un cantidad de temas y librerías que realmente costó seguir la presentación.</p>
+
+<p>A pesar de todo me he llevado algunos aprendizajes útiles:</p>
+
+<ul>
+<li>Rcpp nos permite crear de forma sencilla extensiones de R en C++ que pueden hacer que nuestro código se ejecute mucho más rápido.</li>
+<li>Tiene sentido para crear funciones, aunque sean muy básicas, que se llamarán con mucha frecuencia, con lo que la ganancia será cumulativa.</li>
+<li>Nos permite integrar librerías de funciones escritas en C++ para su uso en R. Algunos packages facilitan esta integración. Por ejemplo, entre otras:
+
+<ul>
+<li>El proyecto <a href="http://www.boost.org">Boost</a> ofrece una gran cantidad de diversas librerías.</li>
+<li><a href="http://arma.sourceforge.net">Armadillo</a> para álgebra lineal, implementado en <a href="https://cran.r-project.org/web/packages/RcppArmadillo/index.html">RcppArmadilo</a>.</li>
+<li><a href="http://www.mlpack.org">mlpack</a> para <em>machine learning</em>, implemntado en <a href="https://cran.r-project.org/web/packages/RcppMLPACK/index.html">RcppMLPACK</a>.</li>
+</ul></li>
+<li>La <a href="http://gallery.rcpp.org">Rcpp Gallery</a> contiene decenas de artículos con ejemplos y código reaprovechable. Por ejemplo este: <a href="http://gallery.rcpp.org/articles/passing-cpp-function-pointers/">Passing C++ function pointers</a>.</li>
+<li>R hace una serie de cosas cada vez que se llama a una función que pueden ser muy costosas. Con Rcpp podemos llamar a funciones de R dentro del código C++, pero este coste seguirá estando allí.</li>
+<li>El package <a href="https://rcppcore.github.io/RcppParallel/">RcppParallel</a> sirve para crear código en Rcpp que se ejecute en paralelo.</li>
+<li>Con Rcpp podemos crear funciones que operan por referencia, lo que evita copias para un menor uso de memoria, pero es peligroso porque pueden mutar los inputs, debe usarse con cuidado.</li>
+<li>RStudio puede crear automáticamente un esqueleto para un package que va a contener funciones que usen C++.</li>
+</ul>
+
+<p>Los ejemplos utilizados en la charla pueden descargarse de este <a href="https://github.com/eddelbuettel/samples-uzuerich-2017-06">repo en Github</a>.</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="../../../../index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="../../../../images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.24.1" />
+
+
+<title>cleanNLP - kernel.useR</title>
+<meta property="og:title" content="cleanNLP - kernel.useR">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="../../../../css/fonts.css" media="all">
+<link rel="stylesheet" href="../../../../css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="../../../../" class="nav-logo">
+    <img src="../../../../images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="../../../../about/">About</a></li>
+    
+    <li><a href="https://github.com/diegogruber">GitHub</a></li>
+    
+    <li><a href="https://twitter.com/diegogruber">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">cleanNLP</h1>
+
+    
+    <span class="article-date">2017/07/04</span>
+    
+
+    <div class="article-content">
+      <p>Excelente tutorial sobre procesamiento de lenguaje natural (NLP) a cargo de Arnold Taylor y Lauren Tilton.</p>
+
+<p>No estaba muy familiarizado con estas técnicas y es realmente fascinante ver lo que es posisble hacer con mínimo esfuerzo. Los presentadores hicieron un gran trabajo organizando la charla en bloques usando varios ejemplos divertidos procesando textos de las novelas de Sherlock Holmes o discursos del Estado de la Nación de los presidentes de EEUU.
+El material de la charla puede descargarse clonando este <a href="http://github.com/statsmaths/useR2017_nlp">repo de Github</a>.</p>
+
+<p>El package <code>cleanNLP</code> está muy bien pensado y utiliza una sintaxis moderna (pensada para usar con <em>pipes</em> <code>%&gt;%</code>). Tiene su propio motor de <em>tokenización</em> pero es algo limitado. Para análisis más avanzados conecta a los motores de análisis de texto más potentes como <a href="spacy.io">Spacy</a> o <a href="https://stanfordnlp.github.io/CoreNLP/">CoreNLP</a> y devuelve sus resultados en un formato <em>tidy</em>.</p>
+
+<p>Algunos apuntes:</p>
+
+<ul>
+<li>Spacy y CoreNLP soportan varios idiomas, castellano incluido.</li>
+<li>Mientras Spacy ofrece gran velocidad y estabilidad, CoreNLP tiene las técnicas más <em>cutting edge</em></li>
+<li>Tienen algunos modelos especializados para tratar textos de fuentes específicas como Twitter, donde el lenguaje suele tomar formas distintas.</li>
+<li>En conversación con Arnold Tyler tras la charla, comentamos la necesidad de crear modelos para casos específicos como podrían ser reviews, comentarios online, documentos financieros, etc. Su consejo: probar primero la librería estándar, debería funcionar bien en la mayoría de casos. De no ser así la nueva versión de Spacy permite ampliar los modelos estándar con vocablos específicos.</li>
+</ul>
+
+<p>Después de este tutorial tengo ganas de ver más charlas sobre NLP en los próximos días.</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="../../../../index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="../../../../images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+
