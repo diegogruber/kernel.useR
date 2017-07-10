@@ -3,7 +3,7 @@ title: Gracias RStudio
 author: Diego Gruber
 date: '2017-07-05'
 weight: 4
-slug: gratitud
+slug: gracias-rstudio
 categories: []
 tags: []
 Categories: []

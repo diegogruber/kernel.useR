@@ -3,7 +3,7 @@ title: Gracias `data.table`
 author: Diego Gruber
 date: '2017-07-05'
 weight: 5
-slug: gratitud-con-data-table
+slug: gracias-data-table
 categories: []
 tags: []
 Categories: []
