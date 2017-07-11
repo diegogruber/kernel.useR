@@ -8,4 +8,4 @@ categories: []
 tags: []
 ---
 
-Excelente keynote de Norman Matloff sobre principios de paralelización implementados en partools. [Slides](http://heather.cs.ucdavis.edu/user2017.pdf) y [blog](https://matloff.wordpress.com).Spark-skeptic.
+Excelente keynote de Norman Matloff sobre principios de paralelización implementados en partools. [Slides](http://heather.cs.ucdavis.edu/user2017.pdf) y [blog](https://matloff.wordpress.com). Spark-skeptic.

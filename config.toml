@@ -34,7 +34,7 @@ publishDir = "docs"
     MathJaxVersion = "2.7.1"
 
     [params.logo]
-    url = "logo.png"
+    url = "IHeartR.png"
     width = 50
     height = 50
     alt = "Logo"

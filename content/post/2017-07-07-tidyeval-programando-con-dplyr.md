@@ -12,7 +12,7 @@ tags: []
 
 Performance aparte, una de las razones principales por las que he preferido usar `data.table`a `dplyr` en mis desarrollos ha sido la facilidad para incluirlo en funciones y pasarle argumentos de las mismas. La clásica estrategia de `substitute` y `eval` funciona perfectamente con `data.table`, no así con `dplyr`. Para conseguirlo con `dplyr`hasta ahora había que hacer unas piruetas que irritaban la vista. 
 
-Con la incorporación de *tidyeval* 
+Con la incorporación de *tidyeval* el proceso se simplifica, por lo que valdría la pena reconsiderar el uso de packages del *tidyverse* y en particular `dplyr`. 
 
 # Byte Compiler
 

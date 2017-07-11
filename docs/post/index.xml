@@ -28,7 +28,7 @@
       
       <guid>/2017/07/07/tidyeval-programando-con-dplyr/</guid>
       <description>&amp;lsquo;tidyeval: Programando con dplyr&amp;lsquo; Performance aparte, una de las razones principales por las que he preferido usar data.tablea dplyr en mis desarrollos ha sido la facilidad para incluirlo en funciones y pasarle argumentos de las mismas. La clásica estrategia de substitute y eval funciona perfectamente con data.table, no así con dplyr. Para conseguirlo con dplyrhasta ahora había que hacer unas piruetas que irritaban la vista.
-Con la incorporación de tidyeval</description>
+Con la incorporación de tidyeval el proceso se simplifica, por lo que valdría la pena reconsiderar el uso de packages del tidyverse y en particular dplyr.</description>
     </item>
     
     <item>
@@ -38,7 +38,7 @@ Con la incorporación de tidyeval</description>
       
       <guid>/2017/07/06/guardando-secretos/</guid>
       <description>A menudo nuestros desarrollos requieren que guardemos credenciales para conectarnos a bases de datos, APIs, etc. Una estrategia habitual es guardar estas credenciales en ficheros externos al repositorio de código para evitar que se expongan accidentalmente. Hay situaciones en las que esto puede generar ciertas dificultades.
-El package [secret]() está diseñado para poder guardar credenciales dentro de un repositorio de código de forma segura utilizando encriptación con claves públicas y privadas.</description>
+El package secret está diseñado para poder guardar credenciales dentro de un repositorio de código de forma segura utilizando encriptación con claves públicas y privadas.</description>
     </item>
     
     <item>
@@ -118,7 +118,7 @@ David Smith en una intervención al finalizar la presentación dijo que CRAN es 
     </item>
     
     <item>
-      <title>Herramientas de desarrollo</title>
+      <title>Desarrollo de packages</title>
       <link>/2017/07/05/herramientas-de-desarrollo/</link>
       <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
       
@@ -145,35 +145,17 @@ No estaba muy familiarizado con estas técnicas y es realmente fascinante ver lo
       <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/07/06/avances-en-conectividad-a-bases-de-datos/</guid>
-      <description> bases de datos en RStudio implyr: conector de Impala  </description>
+      <description> bases de datos en RStudio implyr, una interfaz para Impala.  </description>
     </item>
     
     <item>
-      <title>Gracias RStudio</title>
+      <title>Agradecimientos</title>
       <link>/2017/07/05/gracias-rstudio/</link>
       <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/07/05/gracias-rstudio/</guid>
-      <description>Hoy he tenido la oportunidad de dar las gracias a Tareef Kawaf, CEO de RStudio, por las aportaciones de esta empresa al avance de R y su comunidad. El impacto que han tenido es impresionante.
+      <description>RStudio Hoy he tenido la oportunidad de dar las gracias a Tareef Kawaf, CEO de RStudio, por las aportaciones de esta empresa al avance de R y su comunidad. El impacto que han tenido es impresionante.
 Sin embargo, RStudio no deja de ser una empresa privada que tiene que generar beneficios para sostener sus iniciativas open source. Es interesante que justamente hoy se ha presentado aquí el proyecto ShinyProxy, un proyecto open source que básicamente ofrece sin coste la funcionalidad de Shiny Server Pro, una de las fuentes de ingresos más importantes de RStudio, utilizando a su vez componentes de la versión de código abierto de Shiny Server.</description>
-    </item>
-    
-    <item>
-      <title>Lightning Talks</title>
-      <link>/2017/07/06/lightning-talks/</link>
-      <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/07/06/lightning-talks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gracias `data.table`</title>
-      <link>/2017/07/05/gracias-data-table/</link>
-      <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/07/05/gracias-data-table/</guid>
-      <description>Hoy también he tenido la oportunidad de saludar a Arun Srnivasan (y enviar a través suyo saludos a Matt Dowle) por el desarrollo de data.table, sin duda mi package más utilizado y por el que les estoy profundamente agradecido.</description>
     </item>
     
     <item>
@@ -182,15 +164,15 @@ Sin embargo, RStudio no deja de ser una empresa privada que tiene que generar be
       <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/07/06/computando-en-paralelo/</guid>
-      <description>Excelente keynote de Norman Matloff sobre principios de paralelización implementados en partools. Slides y blog.Spark-skeptic.</description>
+      <description>Excelente keynote de Norman Matloff sobre principios de paralelización implementados en partools. Slides y blog. Spark-skeptic.</description>
     </item>
     
     <item>
-      <title>Más NLP</title>
-      <link>/2017/07/05/m%C3%A1s-nlp/</link>
+      <title>Mas NLP</title>
+      <link>/2017/07/05/mas-nlp/</link>
       <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/07/05/m%C3%A1s-nlp/</guid>
+      <guid>/2017/07/05/mas-nlp/</guid>
       <description>Después del subidón de ayer con el tutorial de cleanNLP, hoy he ido a una charla sobre el package tidytext. El concepto es similar y la presentación fue también muy buena. El package viene acompañado de un libro que tiene buena pinta. Teniendo en cuenta que es algo injusto comparar una charla de 20 minutos con un tutorial de tres horas, mi primera impresión es que cleanNLP le lleva bastante ventaja en cuanto a funcionalidades avanzadas.</description>
     </item>
     
