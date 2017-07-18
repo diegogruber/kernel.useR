@@ -6,10 +6,20 @@
     <description>Recent content in Posts on kernel.useR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Disponibles los videos</title>
+      <link>/2017/07/15/disponibles-los-videos/</link>
+      <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/07/15/disponibles-los-videos/</guid>
+      <description>En este enlace se puede ver el video resumen de la conferencia.
+Los videos de las charlas se pueden ver por este canal. No sé si están todos ahora, pero deberían estarlo pronto.</description>
+    </item>
     
     <item>
       <title>Temas pendientes</title>
