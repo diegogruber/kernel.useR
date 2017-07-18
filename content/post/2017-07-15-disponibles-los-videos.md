@@ -2,7 +2,7 @@
 title: Disponibles los videos
 author: Diego Gruber
 date: '2017-07-15'
-weight: 1
+weight: 1  
 slug: disponibles-los-videos
 categories: []
 tags: []
